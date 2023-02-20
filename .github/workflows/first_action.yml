@@ -1,0 +1,10 @@
+name: sample workflow
+on: workflow_dispatch
+jobs:
+  fist-job: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "helloworkld"
+      - name: print
+        run: echo "bye"        
